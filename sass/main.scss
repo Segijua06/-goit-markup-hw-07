@@ -1,6 +1,23 @@
-body {
-    background-color: brown;
+$black-color: black;
+$blue-color: blue;
+
+.features-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: var(--main-6-color);
+    border-radius: 4px;
 }
-body {
-    color: brown;
+.icon {
+    width: 70px;
+    height: 70px;
+}
+    
+.features-item-title {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
