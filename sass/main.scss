@@ -1,5 +1,8 @@
 $black-color: black;
 $blue-color: blue;
+body {
+    color: green($color: #000000);
+}
 
 // body {
 //     background-color: $black-color;
