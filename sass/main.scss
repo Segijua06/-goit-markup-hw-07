@@ -1,9 +1,12 @@
 $black-color: black;
 $blue-color: blue;
 body {
-    color: green($color: #000000);
+    color: green($color: green);
 }
 
+header {
+    color: green($color: #c02121);
+}
 // body {
 //     background-color: $black-color;
 // }
