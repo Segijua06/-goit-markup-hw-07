@@ -99,7 +99,7 @@ img {
 header .container {
     height: 81px;
 }
-header {
+/* header {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -119,32 +119,31 @@ header {
 
 .web {
     color: var(--main-2-color);
-}
+} */
 
-.nav-list,
-.contacts-list,
-.team-list {
+/* .nav-list,
+.contacts-list {
     display: flex;
 }
 .contacts-list {
     align-items: center;
-}
+} */
 
 .nav-item:not(:last-child) {
     margin-right: 50px;
 }
 
-.contacts-item {
+/* .contacts-item {
     padding-top: 32px;
     padding-bottom: 32px;    
-}
+} */
 
-.nav-item a {
+/* .nav-item a {
     color: var(--main-1-color);
-}
-.nav-item .active-page {
+} */
+/* .nav-item .active-page {
     color: var(--main-2-color);
-}
+} */
 .menu-link {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -181,9 +180,9 @@ header {
     border-radius: 2px;
     transform: scaleX(1);
 }
-.contacts-list {
+/* .contacts-list {
     margin-left: auto;
-}
+} */
 .contacts-item:not(:last-child) {
     margin-right: 30px;    
 }
@@ -204,7 +203,7 @@ header {
     align-items: center;
 }
 
-.mail {
+/* .mail {
     width: 16px;
     height: 12px;
     fill: currentColor;
@@ -217,9 +216,8 @@ header {
 .icon-header {
     display: flex;
     align-items: center;
-    margin-right: 10px;
-    
-}
+    margin-right: 10px;    
+} */
         /* Header end*/
 
         /* Шапка сайта */
@@ -257,6 +255,7 @@ header {
     background-color: var(--main-2-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;     
+    
 }
 
 .hero .button {
@@ -365,7 +364,9 @@ header {
     text-align: center;
     background-color: var(--main-6-color);
 }
-
+.team-list {
+    display: flex;
+}
 .team-list {
     height: 422px;
 }

@@ -18,23 +18,13 @@ p {
     margin-bottom: 0px;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: $my-font;
 }
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-.title {
-    color: $main-1-color;
-    font-weight: 700;
-    padding-bottom: 50px;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-    text-align: center;
 }
 
 ul {
