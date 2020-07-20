@@ -668,7 +668,7 @@ header {
     margin-right: 30px;  
     border: 1px solid #EEEEEE;  
 }
-.portfolio-item-description {
+.card-item-description {
     position: absolute;
     top: 100%;
     
@@ -696,14 +696,14 @@ header {
     margin-top: 30px;
 }
 
-.portfolio-titles {
+.card-titles {
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: var(--main-1-color);
     padding-bottom: 4px;
 }
-.portfolio-text {
+.card-text {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
@@ -714,11 +714,11 @@ header {
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.item-link {
+.card {
     text-decoration: none;
 }
-.item-link:hover .portfolio-item-description,
-.item-link:focus .portfolio-item-description {
+.card:hover .card-item-description,
+.card:focus .card-item-description {
     transform: translateY(-100%) translateX(0);
     opacity: 1;
 }
