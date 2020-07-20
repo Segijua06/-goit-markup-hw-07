@@ -1,0 +1,10 @@
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-item {
+        width: calc((100% - 30px * 2 ) / 3);
+        margin-right: 30px;  
+        border: 1px solid #EEEEEE;  
+    }
+}
