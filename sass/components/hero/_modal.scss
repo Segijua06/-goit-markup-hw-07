@@ -116,8 +116,7 @@
 }
 
 .checkbox-label {
-    display: flex;
-    align-items: center;
+    @include flex;
 }
 
 .checkbox {
@@ -183,9 +182,7 @@
     letter-spacing: 0.06em;
 }
 .close {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredflex;
     position: absolute;
     top: 8px;
     right: 8px;

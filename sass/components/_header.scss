@@ -6,12 +6,11 @@ header {
     font-family: "Roboto";
 }
 .header-content {
-    display: flex;
-    align-items: center;   
+    @include flex;
 }
 
 .nav-list {
-    display: flex;    
+    @include flex;    
 }
 
 .nav-item:not(:last-child) {
@@ -30,6 +29,7 @@ header {
 }
 
 .menu-link {
+    @extend %link;
     padding-top: 32px;
     padding-bottom: 32px;
     position: relative;
@@ -67,19 +67,16 @@ header {
 }
 
 .contacts-list {
-    display: flex;
-    align-items: center;
+    @include flex;
     margin-left: auto;
 }
 
 .contacts-item {
-    display: flex;
-    align-items: center;
+    @include flex;
     padding-top: 32px;
     padding-bottom: 32px;  
     a {
-        display: flex;
-        align-items: center;
+        @include flex;
         color: $main-4-color;
     }
     a:hover, a:focus {
@@ -105,7 +102,6 @@ header {
 }
 
 .icon-header {
-    display: flex;
-    align-items: center;
+    @include flex;
     margin-right: 10px;    
 }

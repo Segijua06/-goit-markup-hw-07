@@ -99,7 +99,7 @@ img {
 header .container {
     height: 81px;
 }
-/* header {
+header {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -119,31 +119,31 @@ header .container {
 
 .web {
     color: var(--main-2-color);
-} */
+}
 
-/* .nav-list,
+.nav-list,
 .contacts-list {
     display: flex;
 }
 .contacts-list {
     align-items: center;
-} */
+}
 
 .nav-item:not(:last-child) {
     margin-right: 50px;
 }
 
-/* .contacts-item {
+.contacts-item {
     padding-top: 32px;
     padding-bottom: 32px;    
-} */
+}
 
-/* .nav-item a {
+.nav-item a {
     color: var(--main-1-color);
-} */
-/* .nav-item .active-page {
+}
+.nav-item .active-page {
     color: var(--main-2-color);
-} */
+}
 .menu-link {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -180,9 +180,9 @@ header .container {
     border-radius: 2px;
     transform: scaleX(1);
 }
-/* .contacts-list {
+.contacts-list {
     margin-left: auto;
-} */
+}
 .contacts-item:not(:last-child) {
     margin-right: 30px;    
 }
@@ -203,7 +203,7 @@ header .container {
     align-items: center;
 }
 
-/* .mail {
+.mail {
     width: 16px;
     height: 12px;
     fill: currentColor;
@@ -217,7 +217,7 @@ header .container {
     display: flex;
     align-items: center;
     margin-right: 10px;    
-} */
+}
         /* Header end*/
 
         /* Шапка сайта */
@@ -291,10 +291,7 @@ header .container {
     overflow: hidden;    
 }
 
-.team-item:not(:last-child),
-.clients-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .features-list {
     display: flex;
@@ -360,16 +357,15 @@ header .container {
             /* Tech skills container end */
 
             /* Our team container start */
-.our-team {
+.team {
     text-align: center;
     background-color: var(--main-6-color);
 }
 .team-list {
     display: flex;
-}
-.team-list {
     height: 422px;
 }
+
 .team-item {
     align-items: center;
     background-color: var(--main-3-color);
@@ -379,9 +375,6 @@ header .container {
 .team-item-title {
     padding-top: 30px;
     font-weight: 500;
-    /* font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em; */
 }
 .team-item-title,
 .team-item-description {
@@ -395,6 +388,7 @@ header .container {
     padding-bottom: 16px;
     color: var(--main-4-color);
 }
+
 
 .social {
     display: flex;
@@ -443,6 +437,7 @@ header .container {
             /* Our team container end */
 
             /* Clients start*/
+    
 .clients-list {
     display: flex;
     justify-content: space-between;
@@ -456,6 +451,9 @@ header .container {
     border: 1px solid var(--main-9-color);
     border-radius: 4px;  
     transition: var(--animation);         
+}
+.clients-item:not(:last-child) {
+    margin-right: 30px;
 }
 .clients-icon {
     fill: var(--main-9-color);
@@ -476,7 +474,7 @@ header .container {
 
             /* Footer container */
             
-.page-footer {
+.footer {
     background-color: var(--main-5-color);
 }
 
@@ -513,14 +511,13 @@ header .container {
 .join-social-network {      
     margin-right: 94px;
 }
-.page-footer .social {
+.footer .social {
     padding-top: 20px;
 }
 
 .join-social-network,
 .subscribe {
-    padding-top: 12px;
-    
+    padding-top: 12px;    
 }
 .subscribe-form {
     display: flex;
