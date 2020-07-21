@@ -155,7 +155,6 @@
 }
 
 .checkbox:focus + .checkbox-icon {
-    /* outline: 1px solid $main-2-color; */
     border-color: $main-2-color;
 }
 .policy,
@@ -190,8 +189,12 @@
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 100%;
+
+    &:focus, &:hover {
+        fill: $main-2-color;
+    }
 }
-.close:focus,
-.close:hover {
-    fill: $main-2-color;
-}
+// .close:focus,
+// .close:hover {
+//     fill: $main-2-color;
+// }
