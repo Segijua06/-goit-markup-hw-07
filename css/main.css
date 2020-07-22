@@ -478,7 +478,6 @@ header {
 }
 
 .checkbox:focus + .checkbox-icon {
-  /* outline: 1px solid $main-2-color; */
   border-color: #2196F3;
 }
 
@@ -526,8 +525,7 @@ header {
   border-radius: 100%;
 }
 
-.close:focus,
-.close:hover {
+.close:focus, .close:hover {
   fill: #2196F3;
 }
 
